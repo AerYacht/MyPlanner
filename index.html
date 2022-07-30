@@ -1,12 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MyPlanner - Plan your future and save it for later in local cache!</title>
-</head>
-<body>
-    <h1>MyPlanner - Plan your future and save it for later in local cache!</h1>
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- CSS files -->
+        <link rel="stylesheet" href="css/style.css">
+        <title>MyPlanner - Plan your future!</title>
+    </head>
+
+    <body>
+        <h1>MyPlanner</h1>
+        <p>Plan your future and we will save it for you!</p>
+        
+        <div class="todo-add">
+            <p>Add a to-do</p><input id="todo-title" type="text" />
+            <p>Set a date</p><input id="date-picker" type="date" />
+            <button onclick="addTodo()">Add Todo</button>
+        </div>
+
+        <div class="overlay">
+        
+            <div class="todo-list" id="todo-list"></div>
+
+        </div>
+
+        <h2>by Adam Kozubek</h2>
+    </body>
+    <!-- JS files -->
+    <script src="js/main.js"></script>
 </html>
