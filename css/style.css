@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;1,200;1,300;1,400;1,500&family=Uchen&display=swap');
+
+:root {
+    --main-color: #316999;
+    --second-color:rgb(24, 24, 24);
+    --font-color: rgb(223, 223, 223);
+  }
+
+body {
+    margin: 15px;
+    padding: 15px;
+    font-family: 'Uchen', serif;
+    background: rgb(30, 30, 30)
+}
+
+h1 {
+    font-size: 62px;
+    display: grid;
+    justify-content: center;
+    width: 100%;
+    background: -webkit-linear-gradient(#316999, #2d68a9, #3865b6, #4e60c1, #6957c7, #8251c6, #9949c3, #ae3fbd, #c03db5, #cf3dac, #dc40a4, #e7449b);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+h2 {
+    font-size: 32px;
+    font-style: italic;
+    display: grid;
+    justify-content: center;
+    width: 100%;
+    background-image: -webkit-linear-gradient(#316999, #2d68a9, #3865b6, #4e60c1, #6957c7, #8251c6, #9949c3, #ae3fbd, #c03db5, #cf3dac, #dc40a4, #e7449b);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+p {
+    font-size: 20px;
+    display: grid;
+    font-weight: 400;
+    justify-content: center;
+    width: 100%;
+    color: var(--font-color);
+}
+
+.todo-add {
+    display: grid;
+    justify-content: center;
+    font-size: 20px;
+    background: rgba(255, 255, 255, 0.01);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+body button {
+    margin: 25px 25px 25px 25px;
+}
+
+.todo-list {
+    margin-top: 15px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: var(--font-color);
+}
+
+button {
+    font-size: 20px;
+    font-family: 'Mulish', serif;
+    border-radius: 15px;
+    border: 2px solid var(--main-color);
+}
+
+.overlay {
+    margin-top: 25px;
+    background: rgba(255, 255, 255, 0.01);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+input {
+    border: 2px solid var(--main-color);
+    border-radius: 5px;
+    padding: 15px;
+    background-color: rgb(24, 24, 24);
+    color: rgb(213, 213, 213);
+}
